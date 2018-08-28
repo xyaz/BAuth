@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'BiometridAuth.framework'
-    s.dependency = 'ZoomAuthentication.framework'
+    s.dependency 'ZoomAuthentication.framework'
 
 end  
